@@ -2,7 +2,8 @@
 streamlit>=1.37
 
 # ---------- Audio / Video input ----------
-yt-dlp
+yt-dlp[default]
+yt-dlp-ejs
 ffmpeg-python
 audioop-lts
 pydub
