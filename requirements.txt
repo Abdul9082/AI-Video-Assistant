@@ -1,0 +1,37 @@
+# ---------- UI ----------
+streamlit>=1.37
+
+# ---------- Audio / Video input ----------
+yt-dlp
+ffmpeg-python
+audioop-lts
+pydub
+
+# ---------- Speech-to-text (local Whisper) ----------
+openai-whisper
+torch
+numpy
+
+# ---------- LLM orchestration (LangChain + Groq) ----------
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-groq>=0.2
+
+# ---------- RAG: Chroma + HuggingFace embeddings ----------
+chromadb>=0.5
+langchain-chroma>=0.1
+langchain-huggingface>=0.1
+sentence-transformers>=3.0
+
+# ---------- Hindi / Hinglish translation ----------
+sarvamai
+transformers>=4.44
+accelerate
+
+# ---------- Export ----------
+fpdf2>=2.7
+
+# ---------- Environment variables ----------
+python-dotenv
